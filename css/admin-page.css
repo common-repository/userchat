@@ -1,0 +1,30 @@
+.tabs li{
+    display: inline-block;
+    text-align: center;
+	padding: 10px;
+    cursor: pointer;
+	font-size: 14px;
+	color: #333;
+	padding: 0px 10px;
+    font-weight: normal;
+    line-height: 30px;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
+	background-color: #e4e4e4;
+}
+.tabs li:hover{
+	background-color: #fff;
+}
+.tabs li.active{
+    border-bottom: none;
+	font-weight: bold;
+	color: #000;
+	background-color: whitesmoke;
+}
+.tabs_divs div{
+    display: none;
+    padding: 15px;
+}
+.tabs_divs div.active{
+    display: block;
+}
